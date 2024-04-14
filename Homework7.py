@@ -94,11 +94,11 @@ count_of_my_pets = 34
 if count_of_my_pets > 10:
     print('I need more space for my pets!')
 
-my_favorite_pets_and_bird = ['cat', 'wolf', 'ostrich']
-if 'lion' in my_favorite_pets_and_bird:
+my_favorite_pets = ['cat', 'wolf', 'ostrich']
+if 'lion' in my_favorite_pets:
     print('Wow!')
 
-MyFavoritePetsAndBirds = ['cat', 'wolf', 'ostrich']
+MyFavoritePets = ['cat', 'wolf', 'ostrich']
 # но такой стиль используется для названий классов
 
 
@@ -134,8 +134,8 @@ if c > 0:
 
 # автоматическое переименование в PyCharm и подсказки - вам не нужно набирать длинные названия переменных
 
-MFPAB = ['cat', 'wolf', 'ostrich']
-if 'lion' in MFPAB:
+MFP = ['cat', 'wolf', 'ostrich']
+if 'lion' in MFP:
     print('Wow!')
 
 # В каждой уважающей себя компании есть style guide (стайл-гайд) - руководство по стилю написания кода.
