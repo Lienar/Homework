@@ -16,8 +16,15 @@ def factoril(*data):
             t += i
             t += ' '
 
-    for i in range (1, n):
-        res = res * i
-    return res
+    return n
 
-print (factoril(*data))
+def factoril_of_N(n):
+    if n == 0:
+        return 1
+    else:
+        return n*factoril_of_N(n-1)
+
+s = factoril(*data)
+
+print (factoril_of_N(s))
+
