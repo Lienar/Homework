@@ -9,7 +9,7 @@ import time
 import asyncio
 
 
-api = "7308792898:AAHxjmxQ6bCcNAg68PeBSG3jq5Nodd3BwDM"
+api = ""
 bot = Bot(token = api)
 dp = Dispatcher(bot, storage = MemoryStorage())
 
