@@ -42,7 +42,7 @@ async def create_user(user: User) -> str:
 @app.put("/user/{user_id}/{username}/{age}")
 async def update_message(user_id: int, user: User) -> str:
     try:
-        edit_user = Users[user_id]
+        edit_user = Users[user_id-1]
         user.id = user_id
         edit_user.username = user
         return f"The user {user_id} is updated"
